@@ -1,0 +1,29 @@
+p:first-child {
+	background-color: #FFC78E;
+	color: #2828FF;
+	padding: 20px;
+	text-align: center;
+}
+
+p:hover:first-child {
+	background-color: #EA7500;
+}
+
+p b:first-child {
+	color:red;
+}
+
+::selection {
+	color:blue;
+	background:gray;
+}
+
+::marker {
+	color:green;
+	font-size: 20px;
+}
+
+a[target="_blank"] {
+	background-color: yellow;
+	color: green;
+}
